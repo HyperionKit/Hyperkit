@@ -1,13 +1,9 @@
 <div align="center">
   <p>
     <a href="https://hyperionkit.xyz">
-      <img src="https://github.com/HyperionKit/assets/raw/main/hyperkit-banner.png" width="20%" height="20%" alt="HyperKit logo vibes"/>
+      <img src="https://github.com/HyperionKit/Hyperkit/blob/master/public/Hyperkit%20Logo_white.png" width="20%" height="20%" alt="HyperKit logo vibes"/>
     </a>
   </p>
-
-  <h1 style="font-size: 3em; margin-bottom: 20px;">
-    HyperKit
-  </h1>
 
   <p style="font-size: 1.2em; max-width: 600px; margin: 0 auto 20px;">
     Comprehensive DeFi infrastructure for the Hyperion ecosystem, enabling seamless development, dual DEX compatibility (team/custom), and cross-chain interoperability with Andromeda via the Metis SDK.
