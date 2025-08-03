@@ -100,8 +100,8 @@ For local development, use the CLI and SDKs in watch mode. See the docs for more
 ## 🌁 Team and Community
 
 - **HyperKit** ([X](https://x.com/HyperionKit), [Discord](https://discord.gg/invite/hyperionkit), [iDAO Forum](https://forum.ceg.vote/invites/nHJVeCMHSP))
-- [ArhonJay](https://github.com/Tristan-T-Dev)
-- [Tristan-T-Dev](https://github.com/ArhonJay)
+- [ArhonJay](https://github.com/ArhonJay) 
+- [Tristan-T-Dev](https://github.com/Tristan-T-Dev)
 - [JustineDevs](https://github.com/JustineDevs)
 
 ## 💫 Contributors
