@@ -45,30 +45,6 @@
 
 <br />
 
-## 🚀 Dual-Mode DEX Compatibility
-
-HyperKit supports both official team DEX contracts (for hackathon/demo speed) and your own custom DEX deployments (for production, control, and reliability).
-
-- **Switch modes** using the `DEX_MODE` environment variable or the `--dex-mode` CLI flag (`team` or `custom`).
-- **Configure contract addresses and ABIs** in `be/dex.config.json`.
-- All CLI/SDK flows (swap, add/remove liquidity, etc.) work in both modes.
-
-### Example: Running CLI in Team Mode
-```bash
-DEX_MODE=team npx ts-node be/cli/cli/index.ts swap
-# or
-npx ts-node be/cli/cli/index.ts swap --dex-mode team
-```
-
-### Example: Running CLI in Custom Mode
-```bash
-DEX_MODE=custom npx ts-node be/cli/cli/index.ts add-liquidity
-# or
-npx ts-node be/cli/cli/index.ts add-liquidity --dex-mode custom
-```
-
-Update `be/dex.config.json` with your contract addresses and ABI paths for each mode.
-
 ## 📚 Full Documentation
 
 - [Architecture Overview](smc/docs/architecture.md)
