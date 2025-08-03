@@ -1,7 +1,7 @@
 <div align="center">
   <p>
     <a href="https://hyperionkit.xyz">
-      <img src="https://github.com/HyperionKit/assets/raw/main/hyperkit-banner.png" width="100%" height="100%" alt="HyperKit logo vibes"/>
+      <img src="https://github.com/HyperionKit/assets/raw/main/hyperkit-banner.png" width="20%" height="20%" alt="HyperKit logo vibes"/>
     </a>
   </p>
 
@@ -14,17 +14,17 @@
   </p>
 
 <p>
-  <a href="https://www.npmjs.com/package/@hyperionkit/cli" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/npm/v/@hyperionkit/cli?style=flat-square&color=0052FF" alt="Version" />
+  <a href="https://www.npmjs.com/package/hyperionkit" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/npm/v/hyperionkit?style=flat-square&color=0052FF" alt="Version" />
   </a>
-  <a href="https://github.com/HyperionKit/Hyperkit_Smart_Contracts/commits/main">
-    <img src="https://img.shields.io/github/last-commit/HyperionKit/Hyperkit_Smart_Contracts?color=0052FF&style=flat-square" alt="last update" />
+  <a href="https://github.com/HyperionKit/Hyperkit">
+    <img src="https://img.shields.io/github/last-commit/HyperionKit/Hyperkit?color=0052FF&style=flat-square" alt="last update" />
   </a>
-  <a href="https://www.npmjs.com/package/@hyperionkit/cli" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/npm/dm/@hyperionkit/cli?style=flat-square&color=0052FF" alt="Downloads per month" />
+  <a href="https://www.npmjs.com/package/hyperionkit" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/npm/dm/hyperionkit?style=flat-square&color=0052FF" alt="Downloads per month" />
   </a>
-  <a href="https://github.com/HyperionKit/Hyperkit_Smart_Contracts/blob/main/LICENSE.md" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/npm/l/@hyperionkit/cli?style=flat-square&color=0052FF" alt="MIT License" />
+  <a href="https://github.com/HyperionKit/Hyperkit/blob/master/LICENSE.md" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/npm/l/hyperionkit?style=flat-square&color=0052FF" alt="MIT License" />
   </a>
 </p>
 
@@ -35,11 +35,14 @@
   <a href="https://discord.gg/invite/hyperionkit">
       <img src="https://img.shields.io/badge/Chat%20on-Discord-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Chat on Discord" />
   </a>
-  <a href="https://github.com/HyperionKit/Hyperkit_Smart_Contracts/stargazers">
-    <img src="https://img.shields.io/github/stars/HyperionKit/Hyperkit_Smart_Contracts" alt="stars" />
+  <a href="https://forum.ceg.vote/invites/nHJVeCMHSP">
+      <img src="https://img.shields.io/badge/iDAO%20Forum-FF6B6B?style=flat-square&logo=discourse&logoColor=white" alt="iDAO Forum" />
   </a>
-  <a href="https://github.com/HyperionKit/Hyperkit_Smart_Contracts/network/members">
-    <img src="https://img.shields.io/github/forks/HyperionKit/Hyperkit_Smart_Contracts" alt="forks" />
+  <a href="https://github.com/HyperionKit/Hyperkit/stargazers">
+    <img src="https://img.shields.io/github/stars/HyperionKit/Hyperkit" alt="stars" />
+  </a>
+  <a href="https://github.com/HyperionKit/Hyperkit/network/members">
+    <img src="https://img.shields.io/github/forks/HyperionKit/Hyperkit" alt="forks" />
   </a>
 </p>
 </div>
@@ -95,7 +98,7 @@ This project is organized as a modular monorepo with CLI, SDKs, smart contracts,
 1. Clone the repository
 
 ```bash
-git clone https://github.com/HyperionKit/Hyperkit_Smart_Contracts.git
+git clone https://github.com/HyperionKit/Hyperkit.git
 ```
 
 2. Install dependencies
@@ -124,15 +127,15 @@ For local development, use the CLI and SDKs in watch mode. See the docs for more
 
 ## 🌁 Team and Community
 
-- **HyperKit** ([X](https://x.com/HyperionKit), [Discord](https://discord.gg/invite/hyperionkit))
+- **HyperKit** ([X](https://x.com/HyperionKit), [Discord](https://discord.gg/invite/hyperionkit), [iDAO Forum](https://forum.ceg.vote/invites/nHJVeCMHSP))
 - [ArhonJay](https://github.com/Tristan-T-Dev)
 - [Tristan-T-Dev](https://github.com/ArhonJay)
 - [JustineDevs](https://github.com/JustineDevs)
 
 ## 💫 Contributors
 
-<a href="https://github.com/HyperionKit/Hyperkit_Smart_Contracts/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=HyperionKit/Hyperkit_Smart_Contracts" />
+<a href="https://github.com/HyperionKit/Hyperkit/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=HyperionKit/Hyperkit" />
 </a>
 
 ## 🌊 License
