@@ -1,0 +1,31 @@
+{
+  "name": "ai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --no-lint",
+    "build:skip-types": "SKIP_TYPE_CHECK=true next build",
+    "build:no-check": "cross-env TYPESCRIPT_NO_TYPE_CHECK=true next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "hyperionkit": "^1.1.4",
+    "lucide-react": "^0.540.0",
+    "next": "15.4.7",
+    "openai": "^5.13.1",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "ignore-loader": "^0.1.2",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

@@ -45,57 +45,163 @@
 
 <br />
 
-## 📚 Full Documentation
+## 🏗️ Architecture Overview
 
-- [Architecture Overview](smc/docs/architecture.md)
-- [Onboarding Guide](smc/docs/onboarding.md)
-- [Step-by-Step Tutorials](smc/docs/tutorials.md)
-- [Docs Index](smc/docs/README.md)
+HyperKit is organized as a comprehensive monorepo containing five main modules:
 
-For more documentation and guides, visit [hyperionkit.xyz](https://hyperkitdev.vercel.app/).
+### 🤖 [`ai/`](./ai) - AI-Powered Web3 Project Generator
+Next.js application that generates complete Web3 applications using natural language prompts. Powered by Alith AI for seamless AI model integration, featuring live preview, blockchain integration with HyperionKit components, and multi-AI model support.
+
+**Key Features:**
+- AI-powered code generation with Alith AI wrapper supporting GPT-4/GPT-3.5
+- Real-time project preview with iframe rendering
+- Automatic integration of HyperionKit blockchain components
+- File management and project publishing capabilities
+- Multi-model AI support through Alith AI architecture
+
+### 🔗 [`be/`](./be) - Backend API Server
+NestJS-based backend service providing API endpoints and AI agent functionality for the HyperKit ecosystem.
+
+**Key Features:**
+- RESTful API with NestJS framework
+- AI agent service integration with Alith AI
+- Scalable TypeScript backend architecture
+- Development and production deployment support
+
+### 🌐 [`fe/`](./fe) - Frontend Dashboard
+Main Next.js frontend application serving as the primary user interface for HyperKit, featuring wallet connectivity, DeFi operations, and project management.
+
+**Key Features:**
+- Wallet integration with RainbowKit and Wagmi
+- DeFi operations (swap, bridge, staking, faucet)
+- Google Sheets integration for data management
+- TaskOn API integration for verification systems
+- Responsive design with Tailwind CSS
+
+### 📦 [`npm/`](./npm) - HyperionKit React Component Library
+Published React component library (`hyperionkit` on npm) providing reusable blockchain components for rapid Web3 development.
+
+**Key Features:**
+- Pre-built React components (ConnectWallet, Swap, Bridge, Staking, Faucet)
+- Ethers.js integration for blockchain interactions
+- TypeScript support with full type definitions
+- Rollup-based build system for optimized bundles
+
+### ⚡ [`smc/`](./smc) - Smart Contracts
+Hardhat-based smart contract development environment with OpenZeppelin integration for secure DeFi protocols.
+
+**Key Features:**
+- Hardhat development framework
+- OpenZeppelin contract library integration
+- TypeScript support for contract interactions
+- Comprehensive testing and deployment scripts
+
+## 📚 Documentation
+
+For comprehensive documentation and guides, visit [hyperionkit.xyz](https://hyperkitdev.vercel.app/).
+
+## � Quick Start
+
+### Prerequisites
+- Node.js v18+ 
+- pnpm v10+ (recommended) or npm/yarn
+- Git
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/HyperionKit/Hyperkit.git
+   cd Hyperkit
+   ```
+
+2. **Install dependencies for all modules**
+   ```bash
+   pnpm install
+   ```
+
+3. **Set up individual modules** (optional, for specific development)
+   ```bash
+   # AI Generator
+   cd ai && pnpm install && pnpm dev
+   
+   # Backend API
+   cd be && pnpm install && pnpm start:dev
+   
+   # Frontend Dashboard  
+   cd fe && pnpm install && pnpm dev
+   
+   # Smart Contracts
+   cd smc && pnpm install && npx hardhat compile
+   ```
+
+### Development Workflow
+
+**Run specific modules:**
+```bash
+# Run AI project generator
+pnpm --filter ai dev
+
+# Run backend API server
+pnpm --filter be start:dev
+
+# Run frontend dashboard
+pnpm --filter fe dev
+
+# Build npm package
+pnpm --filter hyperionkit build
+```
+
+**Run all development servers:**
+```bash
+pnpm run dev
+```
 
 ## 🛠️ Contributing
 
-### Overview
-
-This project is organized as a modular monorepo with CLI, SDKs, smart contracts, and dashboard.
-
-### Requirements
-
-- Node.js v18+
-- pnpm v10 (or npm/yarn)
-
-### Getting Started
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/HyperionKit/Hyperkit.git
+### Project Structure
+```
+Hyperkit/
+├── ai/          # AI-powered Web3 project generator
+├── be/          # NestJS backend API server  
+├── fe/          # Next.js frontend dashboard
+├── npm/         # HyperionKit React component library
+└── smc/         # Hardhat smart contracts
 ```
 
-2. Install dependencies
+### Development Guidelines
 
-```bash
-pnpm install
-```
+1. **Branch Naming**: Use descriptive branches (`feature/ai-generator-enhancement`, `fix/wallet-connection`)
+2. **Commits**: Follow conventional commits (`feat:`, `fix:`, `docs:`, etc.)
+3. **Testing**: Ensure all tests pass before submitting PRs
+4. **Documentation**: Update relevant documentation for new features
 
-### Running packages
+### Module-Specific Development
 
-To run a script in a single package, use:
+**AI Generator (`ai/`):**
+- Built with Next.js 15 and TypeScript
+- Uses Zustand for state management
+- Integrates with multiple AI models (GPT-4, GPT-3.5)
 
-```bash
-pnpm --filter <package-name> <script-name>
-```
+**Backend API (`be/`):**
+- NestJS framework with TypeScript
+- Alith AI integration for agent services
+- RESTful API design patterns
 
-To run a script in all packages:
+**Frontend Dashboard (`fe/`):**
+- Next.js 15 with App Router
+- RainbowKit + Wagmi for wallet connectivity
+- Tailwind CSS for styling
 
-```bash
-pnpm run <script-name>
-```
+**Component Library (`npm/`):**
+- React components with TypeScript
+- Ethers.js for blockchain interactions
+- Rollup for optimized bundling
 
-### Development
-
-For local development, use the CLI and SDKs in watch mode. See the docs for more details.
+**Smart Contracts (`smc/`):**
+- Hardhat development environment
+- OpenZeppelin security standards
+- Comprehensive testing suite
 
 ## 🌁 Team and Community
 
